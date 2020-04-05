@@ -1,0 +1,15 @@
+{
+    "manifest_version" : 2,
+    "name":  "GTFO",
+    "version": "1.0",
+    "browser_action":{
+        "default_popup": "popup.html"
+    },
+    "permissions": ["storage", "notifications", "contextMenus","https://fake-news-api-v0.herokuapp.com/*", "http://www.google.com/*","http://127.0.0.1:5000/*"],
+    "background": {
+        "scripts":[ "event.js"]
+    }
+    
+    
+
+}
